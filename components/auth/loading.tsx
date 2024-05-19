@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Loading() {
+  console.log(" till here loading");
   return (
     <div className="h-full w-full flex flex-col gap-y-4 justify-center items-center">
       <Image

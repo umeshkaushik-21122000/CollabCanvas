@@ -16,6 +16,7 @@ const convex = new ConvexReactClient(convexUrl);
 export default function ConvexClientProvider({
   children,
 }: ConvexClientProviderProps) {
+  console.log(" inside covnvex provider");
   return (
     <ClerkProvider>
       <ConvexProviderWithClerk client={convex} useAuth={useAuth}>
